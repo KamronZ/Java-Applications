@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"KamronZellC195"},{"l":"Model"},{"l":"Utils"},{"l":"View_Controller"}]
