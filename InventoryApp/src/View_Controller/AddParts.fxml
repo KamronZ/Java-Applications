@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="482.0" prefWidth="400" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.AddPartsController">
+    <children>
+        <HBox layoutX="-4.0" prefHeight="94.0" prefWidth="616.0">
+            <children>
+                <Label text="Add Part">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                    <padding>
+                        <Insets left="15.0" top="15.0" />
+                    </padding>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+                <RadioButton fx:id="addPartInHouseRadioButton" mnemonicParsing="false" onAction="#addPartInHouseRadio" selected="true" text="In-House">
+                    <HBox.margin>
+                        <Insets left="80.0" top="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="sourceGroup" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="addPartOutsourcedRadioButton" mnemonicParsing="false" onAction="#addPartOutsourcedRadio" text="Outsourced" toggleGroup="$sourceGroup">
+                    <HBox.margin>
+                        <Insets left="80.0" top="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </RadioButton>
+            </children>
+        </HBox>
+        <VBox layoutX="92.0" layoutY="94.0" prefHeight="245.0" prefWidth="159.0">
+            <children>
+                <Label text="ID">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                    <padding>
+                        <Insets top="5.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Name">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="15.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Inv">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="15.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Price/Cost">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="17.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Max">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="17.0" />
+                    </VBox.margin>
+                </Label>
+                <Label fx:id="sourceLabelField" text="Machine ID">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="15.0" />
+                    </VBox.margin>
+                </Label>
+            </children>
+        </VBox>
+        <VBox layoutX="230.0" layoutY="92.0" />
+        <Button layoutX="353.0" layoutY="397.0" mnemonicParsing="false" onAction="#addPartSaveButton" text="Save">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="addPartCancelButton" layoutX="418.0" layoutY="397.0" mnemonicParsing="false" onAction="#addPartCancelButton" text="Cancel">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <VBox layoutX="222.0" layoutY="91.0" prefHeight="251.0" prefWidth="249.0">
+            <children>
+                <TextField fx:id="addPartsIDField" disable="true" editable="false" prefHeight="30.0" promptText="Auto Gen - Disabled">
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </TextField>
+                <TextField fx:id="addPartNameField" prefHeight="30.0" promptText="Part Name">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </TextField>
+                <TextField fx:id="addPartInventoryField" prefHeight="30.0" promptText="Inv">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </TextField>
+                <TextField fx:id="addPartCostField" prefHeight="30.0" promptText="Price/Cost">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </TextField>
+                <HBox prefHeight="43.0" prefWidth="195.0">
+                    <children>
+                        <TextField fx:id="addPartMaxField" maxWidth="80.0" prefHeight="30.0" promptText="Max">
+                            <HBox.margin>
+                                <Insets top="5.0" />
+                            </HBox.margin>
+                        </TextField>
+                        <Label prefHeight="37.0" prefWidth="50.0" text="Min">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="30.0" />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="addPartMinField" maxWidth="80.0" prefHeight="30.0" promptText="Min">
+                            <HBox.margin>
+                                <Insets left="30.0" top="5.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <TextField fx:id="addPartSourceField"  prefHeight="30.0" promptText="Machine ID">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </TextField>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

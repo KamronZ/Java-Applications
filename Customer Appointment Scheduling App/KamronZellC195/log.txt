@@ -1,0 +1,128 @@
+Jul 17, 2021 1:56:34 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 18:56:34.4879784for userID: 0 was successful
+Jul 17, 2021 2:02:07 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 19:02:07.575 for userID: 0 was successful
+Jul 17, 2021 2:04:23 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 19:04:23.086 for username:admin, was successful
+Jul 17, 2021 2:04:33 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:04:33.581 for username: admin was not successful.
+Jul 17, 2021 2:09:56 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:09:56.447 for username: t was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:10:43 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:10:43.247 for username: t was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:10:47 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:10:47.893 for username: t was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:11:45 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 19:11:45.686 for username:admin, was successful
+Jul 17, 2021 2:12:01 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:12:01.146 for username: admin was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:12:43 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 19:12:43.226 for username:admin, was successful
+Jul 17, 2021 2:12:54 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:12:54.143 for username: admin was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:14:23 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:14:23.663 for username: admin was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:14:26 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:14:26.988 for username: admin was not successful.  this session has failed to log in:0 times
+Jul 17, 2021 2:15:14 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:15:14.121 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:15:16 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:15:16.605 for username: admin was not successful.  this session has failed to log in:2 times
+Jul 17, 2021 2:15:18 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:15:18.523 for username: admin was not successful.  this session has failed to log in:3 times
+Jul 17, 2021 2:21:46 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:21:46.216 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:31:48 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:31:48.781 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:31:51 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:31:51.088 for username: admin was not successful.  this session has failed to log in:2 times
+Jul 17, 2021 2:31:52 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:31:52.871 for username: admin was not successful.  this session has failed to log in:3 times
+Jul 17, 2021 2:34:06 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:34:06.876 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:34:11 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:34:11.933 for username: admin was not successful.  this session has failed to log in:2 times
+Jul 17, 2021 2:34:14 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:34:14.417 for username: admin was not successful.  this session has failed to log in:3 times
+Jul 17, 2021 2:34:19 PM View_Controller.LogInController logger
+SEVERE: Log in attempt at: 2021-07-17 19:34:16.298 for username: admin was not successful.  this session has failed to log in:4 times and program closed forcefully!
+Jul 17, 2021 2:35:01 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:35:01.69 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:35:03 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:35:03.774 for username: admin was not successful.  this session has failed to log in:2 times
+Jul 17, 2021 2:35:05 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:35:05.739 for username: admin was not successful.  this session has failed to log in:3 times
+Jul 17, 2021 2:35:12 PM View_Controller.LogInController logger
+SEVERE: Log in attempt at: 2021-07-17 19:35:07.864 for username: admin was not successful.  this session has failed to log in:4 times and program closed forcefully!
+Jul 17, 2021 2:35:31 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:35:31.674 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:35:44 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:35:44.562 for username: admin was not successful.  this session has failed to log in:2 times
+Jul 17, 2021 2:35:46 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:35:46.573 for username: admin was not successful.  this session has failed to log in:3 times
+Jul 17, 2021 2:35:57 PM View_Controller.LogInController logger
+SEVERE: Log in attempt at: 2021-07-17 19:35:54.273 for username: admin was not successful.  this session has failed to log in:4 times and program closed forcefully!
+Jul 17, 2021 2:40:02 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 19:40:02.415 for username:admin, was successful
+Jul 17, 2021 2:40:11 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:40:11.813 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 2:40:13 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:40:13.525 for username: admin was not successful.  this session has failed to log in:2 times
+Jul 17, 2021 2:40:16 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:40:16.279 for username: admin was not successful.  this session has failed to log in:3 times
+Jul 17, 2021 2:40:20 PM View_Controller.LogInController logger
+SEVERE: Log in attempt at: 2021-07-17 19:40:18.658 for username: admin was not successful.  this session has failed to log in:3 times and program closed forcefully!
+Jul 17, 2021 2:41:17 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 19:41:17.611 for username:admin, was successful
+Jul 17, 2021 2:41:26 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-17 19:41:26.329 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 17, 2021 4:16:58 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-17 21:16:58.35 for username:admin, was successful
+Jul 18, 2021 9:29:57 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 02:29:57.972 for username:admin, was successful
+Jul 18, 2021 9:30:26 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 02:30:26.057 for username:admin, was successful
+Jul 18, 2021 9:30:49 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 02:30:49.712 for username:admin, was successful
+Jul 18, 2021 9:32:46 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 02:32:46.368 for username:admin, was successful
+Jul 18, 2021 9:33:13 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 02:33:13.826 for username:admin, was successful
+Jul 18, 2021 9:34:48 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 02:34:48.111 for username:admin, was successful
+Jul 19, 2021 1:01:34 PM View_Controller.LogInController logger
+WARNING: Log in attempt at: 2021-07-19 18:01:34.027 for username: admin was not successful.  this session has failed to log in:1 times
+Jul 19, 2021 1:02:11 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:02:11.299 for username:admin, was successful
+Jul 19, 2021 1:43:30 PM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:43:30.285 for username:admin, was successful
+Jul 19, 2021 6:47:44 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:47:44.635 for username:admin, was successful
+Jul 20, 2021 1:48:06 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:48:06.965 for username:admin, was successful
+Jul 20, 2021 1:50:12 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:50:12.809 for username:admin, was successful
+Jul 20, 2021 1:51:16 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:51:16.031 for username:admin, was successful
+Jul 20, 2021 1:55:36 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 18:55:36.078 for username:admin, was successful
+Jul 20, 2021 2:47:06 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:47:06.392 for username:admin, was successful
+Jul 20, 2021 2:50:11 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:50:11.057 for username:admin, was successful
+Jul 20, 2021 2:51:51 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:51:51.703 for username:admin, was successful
+Jul 20, 2021 2:52:15 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:52:15.393 for username:admin, was successful
+Jul 20, 2021 2:55:37 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:55:37.234 for username:admin, was successful
+Jul 20, 2021 2:56:17 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:56:17.326 for username:admin, was successful
+Jul 20, 2021 2:57:19 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 19:57:19.908 for username:admin, was successful
+Jul 20, 2021 3:08:24 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 20:08:24.056 for username:admin, was successful
+Jul 20, 2021 3:10:23 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 20:10:23.048 for username:admin, was successful
+Jul 20, 2021 3:10:38 AM View_Controller.LogInController logger
+INFO: Log in attempt at: 2021-07-19 20:10:38.953 for username:admin, was successful

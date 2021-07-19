@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="482.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.AddProductsController">
+   <children>
+      <AnchorPane layoutX="-4.0" prefHeight="532.0" prefWidth="1068.0">
+         <children>
+            <HBox prefHeight="94.0" prefWidth="616.0">
+               <children>
+                  <Label text="Add Product">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="35.0" top="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <TableView fx:id="addProductCurrentTable" fixedCellSize="0.0" layoutX="466.0" layoutY="104.0" prefHeight="143.0" prefWidth="537.0">
+               <columns>
+                  <TableColumn fx:id="addProductProductIDColumn" prefWidth="130.0" text="Product ID" />
+                  <TableColumn fx:id="addProductProductNameColumn" prefWidth="145.0" text="Product Name" />
+                  <TableColumn fx:id="addProductInventoryLvlColumn" prefWidth="130.0" text="Inventory Level" />
+                  <TableColumn fx:id="addProductCostColumn" prefWidth="130.0" text="Price/Cost Per Unit" />
+               </columns>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TableView>
+            <VBox layoutX="21.0" layoutY="132.0" prefHeight="245.0" prefWidth="159.0">
+               <children>
+                  <Label text="ID">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Name">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Inv">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Price">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Max">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="130.0" layoutY="129.0" prefHeight="251.0" prefWidth="249.0">
+               <children>
+                  <TextField fx:id="addProductIDField" disable="true" editable="false" prefHeight="30.0" promptText="Auto Gen - Disabled">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="addProductNameField" prefHeight="30.0" promptText="Product Name">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="addProductInventoryField" maxWidth="80.0" prefHeight="30.0" promptText="Inv">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="addProductPriceField" maxWidth="80.0" prefHeight="30.0" promptText="Price/Cost">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <HBox prefHeight="43.0" prefWidth="195.0">
+                     <children>
+                        <TextField fx:id="addProductMaxField" maxWidth="80.0" minWidth="80.0" prefHeight="30.0" prefWidth="80.0" promptText="Max">
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label prefHeight="37.0" prefWidth="50.0" text="Min">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="addProductMinField" maxWidth="80.0" prefHeight="30.0" promptText="Min">
+                           <HBox.margin>
+                              <Insets left="30.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Button fx:id="addProductCancelButton" layoutX="911.0" layoutY="486.0" minWidth="70.0" mnemonicParsing="false" onAction="#addProductCancelButton" text="Cancel">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="830.0" layoutY="486.0" minWidth="70.0" mnemonicParsing="false" onAction="#addProductSaveButton" text="Save">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TableView fx:id="associatedPartsTable" fixedCellSize="0.0" layoutX="466.0" layoutY="294.0" prefHeight="143.0" prefWidth="537.0">
+               <columns>
+                  <TableColumn fx:id="addProductCurrentProductPartIDColumn" prefWidth="130.0" text="Product ID" />
+                  <TableColumn fx:id="addProductCurrentPartNameColumn" prefWidth="145.0" text="Product Name" />
+                  <TableColumn fx:id="addProductCurrentInventoryLvlColumn" prefWidth="130.0" text="Inventory Level" />
+                  <TableColumn fx:id="addProductCurrentCostColumn" prefWidth="130.0" text="Price/Cost Per Unit" />
+               </columns>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TableView>
+            <Button layoutX="719.0" layoutY="69.0" mnemonicParsing="false" onAction="#addProductSearchButton" text="Search ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="911.0" layoutY="254.0" minWidth="70.0" mnemonicParsing="false" onAction="#addProductAddButton" text="Add">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="911.0" layoutY="447.0" minWidth="70.0" mnemonicParsing="false" onAction="#addProductDeleteButton" text="Delete">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="addProductSearchField" layoutX="790.0" layoutY="69.0" minWidth="175.0" />
+         </children>
+      </AnchorPane>
+      <VBox layoutX="230.0" layoutY="92.0" />
+   </children>
+</AnchorPane>
